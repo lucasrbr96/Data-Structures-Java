@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0745748c-ee27-4f3f-bb7d-c26fdfd10f93" name="Changes" comment="Array - Data Structure">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/data/structure/linear/linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/data/structure/linear/linkedList/Main.java" afterDir="false" />
+    <list default="true" id="0745748c-ee27-4f3f-bb7d-c26fdfd10f93" name="Changes" comment="Linked List - Data Structure">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/data/structure/linear/stack/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/data/structure/linear/stack/Stack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,11 +37,12 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Application.com.data.structure.linear.linkedList.Main.executor": "Run",
+    "Application.com.data.structure.linear.stack.Main.executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Projetos/Data Structures",
+    "last_opened_file_path": "D:/Projetos/design-patterns",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -53,11 +54,12 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.data.structure.linear.stack" />
       <recent name="com.data.structure.linear.linkedList" />
       <recent name="com.data.structure.linear.array" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.com.data.structure.linear.linkedList.Main">
+  <component name="RunManager" selected="Application.com.data.structure.linear.stack.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.data.structure.linear.array.Main" />
       <module name="Data-Structures" />
@@ -84,8 +86,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.data.structure.linear.stack.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.data.structure.linear.stack.Main" />
+      <module name="Data-Structures" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.data.structure.linear.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.data.structure.linear.stack.Main" />
         <item itemvalue="Application.com.data.structure.linear.linkedList.Main" />
         <item itemvalue="Application.Main" />
       </list>
@@ -104,9 +120,22 @@
       <workItem from="1709073756275" duration="933000" />
       <workItem from="1709237368004" duration="61000" />
     </task>
+    <task id="LOCAL-00001" summary="Linked List - Data Structure">
+      <option name="closed" value="true" />
+      <created>1745526319503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1745526319503</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Linked List - Data Structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linked List - Data Structure" />
   </component>
 </project>
